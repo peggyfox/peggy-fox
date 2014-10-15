@@ -6,8 +6,23 @@
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
   <%= favicon_link_tag 'favicon.ico' %>
+  <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
 </head>
 <body>
+
+<header>
+  <div class="brand">
+    <div class="name"><%= link_to "Peggy Fox", homepage_path %></div>
+    <ul>
+      <li><%= link_to "https://www.linkedin.com/in/peggyfox1" do %><i class="fa fa-linkedin fa-lg"></i><% end %></li>
+      <li><%= link_to "https://github.com/peggyfox" do %><i class="fa fa-github fa-lg"></i><% end %></li>
+      <li><%= link_to "https://twitter.com/peggythefox" do %><i class="fa fa-twitter fa-lg"></i><% end %></li>
+      <li><%= link_to "https://www.facebook.com/peggy.fox.1671" do %><i class="fa fa-facebook fa-lg"></i><% end %></li>
+    </ul>
+  </div>
+
+</header>
+
 
 <%= yield %>
 

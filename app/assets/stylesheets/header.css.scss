@@ -7,17 +7,21 @@ body {
 header {
   margin-left: -1%;
   width: 100%;
-  height: 4rem;
+  height: 3.5rem;
   background-color: #479191;
   color: #fff;
   opacity: .9;
   position: fixed;
   z-index: 10;
   padding-left: 2rem;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 }
 
-header .name, header .name a {
+.brand {
+  float: left;
+}
+
+.brand .name, .brand .name a {
   letter-spacing: 2px;
   color: #fff;
   text-decoration: none;
@@ -27,18 +31,42 @@ header .name, header .name a {
   font-family: 'Volkhorn', serif;
 }
 
-header ul {
+.brand ul {
   display: inline-block;
   text-align: right;
 }
 
-header li, header li a {
+.brand li, .brand li a {
   list-style-type: none;
   display: inline;
   letter-spacing: 10px;
   color: #fff;
 }
 
-header li a:hover {
-  color: tomato;
+.brand li a:hover {
+  color: #FF6347;
 }
+
+nav {
+  float: right;
+  margin-right: 3rem;
+}
+
+nav ul {
+  display: inline-block;
+  text-align: right;
+}
+
+nav li, nav li a {
+  list-style-type: none;
+  display: inline;
+  color: #479191;
+  background-color: #fff;
+  padding: .5rem;
+  border-radius: 5px;
+}
+
+nav li a:hover {
+  color: #FF6347;
+}
+

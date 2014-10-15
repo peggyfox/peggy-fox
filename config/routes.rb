@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   root 'home#index', as: :homepage
+  get 'home/resume', as: :resume
+  get 'home/portfolio', as: :portfolio
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

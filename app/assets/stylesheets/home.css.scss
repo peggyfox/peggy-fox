@@ -22,9 +22,83 @@
   text-align: center;
   position: fixed;
   margin: 0 auto;
-  color: white;
+  color: #fff;
   z-index: 10;
   font-size: 5rem;
   opacity: 0.6;
   line-height: 7rem;
+}
+
+.container {
+  left: 5rem;
+  right: 5rem;
+  top: .5rem;
+  bottom: 1rem;
+  margin: 0 auto;
+  z-index: 10;
+  opacity: 0.95;
+  position: fixed;
+  background-color: #fff;
+  margin-top: 5rem;
+  text-align: center;
+  color: #479191;
+  font-family: 'Volkhorn', serif;
+}
+
+.title {
+  font-size: 20px;
+  color: tomato;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.skills {
+  margin: 1%;
+  float: left;
+  width: 25%;
+  border-right: 2px solid #479191;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  overflow: auto;
+  max-height: 490px;
+}
+
+.skills ul {
+  list-style:none;
+  padding-left:0;
+}
+
+.skills ul li {
+  padding: 2px;
+}
+
+.experiences {
+  margin: 1%;
+  float: right;
+  width: 70%;
+  overflow: auto;
+  max-height: 490px;
+}
+
+.position_title, .position_title a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #479191;
+}
+.position_title a:hover {
+  color: #FF6347;
+}
+
+.position_subtitle {
+  font-size: 15px;
+}
+
+.experiences ul {
+  text-align: left;
+  font-size: 14px;
+}
+
+.description {
+  text-align: left;
+  padding: 5px 50px;
 }

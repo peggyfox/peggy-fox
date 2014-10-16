@@ -9,7 +9,7 @@ class HomeController < ApplicationController
   def portfolio
   end
 
-  def samples
+  def accordion
   end
 
 end

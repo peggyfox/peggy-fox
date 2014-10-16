@@ -4,14 +4,19 @@
   </div>
 
   <div class="container">
-    <div class="title"><h3>Portfolio</h3></div>
-      <div class="position_title"><%= link_to "http://www.divvymaps.com" do %>DivvyMaps<% end %></div>
-       <div class="position_subtitle">8-day Project, October 2014</div>
-       <div class="description"><p>DivvyMaps is a Ruby on Rails application that provides optimized directions to Divvy bike riders. The application uses Divvy, Google Distance Matrix and and Google Directions APIs to determine optimal routes to and from a Divvy station, and biking directions between two stations. The app also accounts for rides longer than 30 minutes by directing users to multiple check-in stations along their route. These calculations and visualizations were executed in Javascript. The single-page app was optimized for web and mobile using HTML and CSS.</p></div>
+    <span class="title"><h3>Portfolio</h3></span>
+    <div id="accordion">
+      <h3>DivvyMaps <span class="position_title"><a href="http://www.divvymaps.com"><i class="fa fa-external-link"></i></a></span></h3>
+      <div>
+        <p class="position_subtitle">8-day Project, October 2014</p>
+        <p class="description">DivvyMaps is a Ruby on Rails application that provides optimized directions to Divvy bike riders. The application uses Divvy, Google Distance Matrix and and Google Directions APIs to determine optimal routes to and from a Divvy station, and biking directions between two stations. The app also accounts for rides longer than 30 minutes by directing users to multiple check-in stations along their route. These calculations and visualizations were executed in Javascript. The single-page app was optimized for web and mobile using HTML and CSS.</p>
+      </div>
 
-       <div class="position_title"><%= link_to "http://www.working--title.herokuapp.com" do %>WorkingTitle<% end %></div>
-       <div class="position_subtitle">4-day Project, September 2014</div>
-       <div class="description"><p>A writing collaboration engine where users can contribute to branches of a project as well as view a tree visualization of a project's evolution. Team members developed advanced skills in Ruby on Rails, JavaScript, D3, HTML, CSS, Test Driven Development, and Agile Development.</p></div>
-
+       <h3>WorkingTitle <span class="position_title"><%= link_to "http://working--title.herokuapp.com" do %> <i class="fa fa-external-link"></i><% end %></span></h3>
+       <div>
+         <p class="position_subtitle">4-day Project, September 2014</p>
+         <p class="description">A writing collaboration engine where users can contribute to branches of a project as well as view a tree visualization of a project's evolution. Team members developed advanced skills in Ruby on Rails, JavaScript, D3, HTML, CSS, Test Driven Development, and Agile Development.</p>
+      </div>
+    </div>
   </div>
 </div>

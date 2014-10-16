@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root 'home#index', as: :homepage
   get 'home/resume', as: :resume
   get 'home/portfolio', as: :portfolio
+  get 'home/accordion', as: :accordion
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

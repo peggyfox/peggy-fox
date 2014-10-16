@@ -30,8 +30,9 @@
 }
 
 .container {
-  left: 5rem;
-  right: 5rem;
+  width: 85%;
+  left: 4rem;
+  right: 4rem;
   top: .5rem;
   bottom: 1rem;
   margin: 0 auto;
@@ -57,7 +58,7 @@
   float: left;
   width: 25%;
   border-right: 2px solid #479191;
-  font-size: 25px;
+  font-size: 24px;
   font-family: 'Lato', sans-serif;
   overflow: auto;
   max-height: 490px;
@@ -71,6 +72,17 @@
 .skills ul li {
   padding: 2px;
 }
+
+.back_end_skills {
+  display: none;
+}
+.front_end_skills {
+  display: none;
+}
+.misc_skills {
+  display: none;
+}
+
 
 .experiences {
   margin: 1%;
@@ -101,4 +113,46 @@
 .description {
   text-align: left;
   padding: 0px 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    margin-top: 7.5rem;
+    left: 1rem;
+    right: 1rem;
+    overflow: auto;
+  }
+  .skills {
+    border: none;
+    margin: 1%;
+    float: none;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+  }
+  .experiences {
+    float: none;
+    width: 100%;
+    overflow: hidden;
+    max-height: 1500px !important;
+  }
+  .full_screen_skills {
+    display: none;;
+  }
+  .back_end_skills {
+    display: inline;
+    float: left;
+    width: 33%;
+  }
+  .front_end_skills {
+    display: inline;
+    float: left;
+    width: 33%;
+  }
+  .misc_skills {
+    display: inline;
+    float: left;
+    width: 33%
+  }
 }
